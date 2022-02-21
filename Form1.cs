@@ -110,7 +110,7 @@ namespace gui_noelDOM
 
         private void btn_send_data_Click(object sender, EventArgs e)
         {
-            _serialPort.WriteLine(Text_box_send_data.Text);
+            _serialPort.WriteLine(Text_box_send_data.Text); 
         }
 
         private void Track_Bar_Servo_ValueChanged(object sender, EventArgs e)

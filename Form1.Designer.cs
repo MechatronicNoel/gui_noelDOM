@@ -100,7 +100,7 @@ namespace gui_noelDOM
             this.btn_send_data.Name = "btn_send_data";
             this.btn_send_data.Size = new System.Drawing.Size(87, 31);
             this.btn_send_data.TabIndex = 17;
-            this.btn_send_data.Text = "Sen data";
+            this.btn_send_data.Text = "Send data";
             this.btn_send_data.UseVisualStyleBackColor = true;
             this.btn_send_data.Click += new System.EventHandler(this.btn_send_data_Click);
             // 
