@@ -67,6 +67,8 @@ namespace gui_noelDOM
                 catch (Exception)
                 {
                     Btn_conect.Text = "Connect";
+                    Track_Bar_Servo.Enabled = false;
+                    btn_send_data.Enabled = false;
                     MessageBox.Show("Error: " + comboBox1.Text + " (Port busy)");
                  
                 }
@@ -75,6 +77,8 @@ namespace gui_noelDOM
             else if (Btn_conect.Text == "Disconnect")
             {
                 Btn_conect.Text = "Connect";
+                Track_Bar_Servo.Enabled = false;
+                btn_send_data.Enabled = false;
                 _serialPort.Close();
             }
         }
