@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "gui_noelDOM": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
